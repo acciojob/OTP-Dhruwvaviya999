@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+
+.container{
+	height:50vh;
+	width:85%;
+	margin:auto;
+	padding:20px;
+	border-radius:10px;
+	border:3px solid black;
+}
+
+#verification_heading{
+	text-align:center;
+}
+
+#verification_subtext{
+	font-weight:100;
+	text-align:center;
+}
+
+.code-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:15px;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+ input[type="number"] {
+            -moz-appearance: textfield;
+        }
+
+.code{
+	width:75px;
+	height:75px;
+	border-radius:10px;
+	font-size:50px;
+}
+
+.info{
+	width:360px;
+	margin:auto;
+	text-align:center;
+	font-size:13px;
+	background-color:lightpink;
+	padding:3px;
+	border-radius:5px;
+	margin-top:40px;
+}
