@@ -4,11 +4,12 @@ const codes = document.querySelectorAll(".code");
 
 
 codes.forEach((code, i)=>{
+	codes[0].focus();
 	code.addEventListener("input", (e) => {
 		const currentInput = e.target;
 		const nextInput = codes[i + 1];
 
-		if(currentInput && nextInput){
+		if(currentInput.value && nextInput){
 			nextInput.focus();
 		};
 	});
@@ -20,7 +21,3 @@ codes.forEach((code, i)=>{
 		}
 	});
 });
-
-function handleFocus(e){
-	
-}
